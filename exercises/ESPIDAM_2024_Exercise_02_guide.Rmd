@@ -1,5 +1,5 @@
 ---
-title: "ESPIDAM Exercise 2 -- Solution"
+title: "ESPIDAM Exercise 2 -- Guide"
 author: "Fanny Bergström"
 date: "2024-06-25"
 output:
