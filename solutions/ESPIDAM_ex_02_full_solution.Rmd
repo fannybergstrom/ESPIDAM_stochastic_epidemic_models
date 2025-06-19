@@ -1,7 +1,7 @@
 ---
 title: "ESPIDAM Exercise 2 -- Solution"
 author: "Fanny Bergström"
-date: "2024-06-25"
+date: "2025-06-24"
 output:
   pdf_document:
     latex_engine: xelatex
@@ -52,7 +52,7 @@ r <- 0.3
 ################
 
 ## write the estimated R_0 when there is immune people
-# note this tau represents the raction infected among those initially susceptibles
+# note this tau represents the fraction infected among those initially susceptibles
 R0_immune <- function(tau) {
   -log(1 - tau) / (tau * (1 - r))
 }
@@ -85,7 +85,7 @@ plot(covid_df$t, covid_df$I,
 )
 title("Observed data")
 
-# We see that the USA has approximately 331.9 mil inhabitants pig herds
+# We see that the USA has approximately 331.9 mil inhabitants
 # We assume 3.3 mil infected detected
 N <- 331.9 * 10^6
 sum_y <- sum(covid_df$New_cases)
@@ -147,7 +147,7 @@ R0.hat
 ```
 
 (c) Inserting the values of MLE to find the solution of SIR differential equation system. 
-And plot the fitted curve and the real data of COVID-19 outbreak together. Does it fit well? 
+And plot the fitted curve and the real data of COVID-19 outbreak together. Does it fit well?
 
 ```{r echo=TRUE, message=FALSE, warning=FALSE}
 ################################################
