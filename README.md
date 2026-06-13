@@ -1,5 +1,5 @@
 # ESPIDAM Stochastic epidemic models with inference
 
-This is the repository for the excercises for the course Stochastic epidemic models with inference given by Tom Britton and Lorenzo Pelli at the summer school [ESPIDAM](https://www.su.se/matematiska-institutionen/welcome-to-2nd-espidam-the-european-summer-program-in-infectious-disease-analysis-and-modelling-1.795037).
+This is the repository for the excercises for the course Stochastic epidemic models with inference given by Tom Britton and Lorenzo Pelli at the summer school [ESPIDAM](https://www.su.se/english/divisions/department-of-mathematics/research/conferences-and-seminars/espidam-the-european-summer-program-in-infectious-disease-analysis-and-modelling).
 
 The excersises are created by me (current TA of the course) and Dongni Zhang (former TA) from Stockholm University.
